@@ -1,0 +1,14 @@
+{
+    "vend":{
+        "product_url": "https://jvclothingstore2.vendhq.com/api/products",
+        "api_token":"Bearer KiQSsELLtoyx8kZfx1HuC_Nyaco1qzxnGElzriKm"
+    },
+    "shopify":
+    {
+        "product_url": "https://8582d7fbd457f9d63995d5b066297de2:f259aa39a3fd48a4144f2169b5f030a0@jvclothingstore1.myshopify.com/admin/products.json"
+    }, 
+    "db": {
+        "host": "",
+        "port": ""
+    }
+}
