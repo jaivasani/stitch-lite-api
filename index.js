@@ -4,6 +4,13 @@ const stitch_lite = require('./helpers/stitch_lite');
 
 const app = express();
 
+// post Request
+app.post('/api/sync', (req, res) => {
+    stitch_lite.sync()
+    .then((res) => res.send('sync success'))
+    .catch((err) => res.status(500).send('error occured'));
+});
+
 // GET Request
 app.get('/api/products', (req, res) => {
     stitch_lite.getAllProducts()
